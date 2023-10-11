@@ -1,0 +1,16 @@
+{
+  "name": "electron-basic-template",
+  "version": "1.0.0",
+  "description": "\"my electron basic template\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "famous",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0"
+  }
+}
